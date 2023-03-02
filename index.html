@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>SEIF ELDESSOKY</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Template Google Fonts -->
+      <link rel="preconnect" href="https://fonts.googleapis.com/">
+      <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;300;400;500;600;700&amp;family=Oswald:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+      <!-- Template CSS Files -->
+      <link rel="stylesheet" href="css/devicon.min.css">
+      <link rel="stylesheet" href="css/all.min.css">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/swiper-bundle.min.css">
+      <link rel="stylesheet" href="css/animate.min.css">
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- CSS Skin File -->
+      <link rel="stylesheet" href="css/skins/yellow.css">
+      <!-- Live Style Switcher - demo only -->
+      <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css">
+      <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css">
+      <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css">
+      <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css">
+      <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css">
+      <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css">
+      <link rel="alternate stylesheet" type="text/css" title="pink" href="css/skins/pink.css">
+      <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css">
+      <link rel="alternate stylesheet" type="text/css" title="turquoise" href="css/skins/turquoise.css">
+      <link rel="stylesheet" type="text/css" href="css/styleswitcher.css">
+   </head>
+   <body>
+      <!-- Live Style Switcher Starts - demo only -->
+      <div id="switcher" class="">
+         <div class="content-switcher">
+            <h4>COLOR SWITCHER</h4>
+            <ul>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="assets/styleswitcher/yellow.png" alt="yellow"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="assets/styleswitcher/green.png" alt="green"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="assets/styleswitcher/red.png" alt="red"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="assets/styleswitcher/blue.png" alt="blue"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="assets/styleswitcher/orange.png" alt="orange"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="assets/styleswitcher/yellowgreen.png" alt="yellowgreen"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('pink');" title="pink" class="color"><img src="assets/styleswitcher/pink.png" alt="pink"></a>
+               </li>
+               <li>
+                  <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="assets/styleswitcher/goldenrod.png" alt="goldenrod"></a>
+               </li>
+            </ul>
+            <div id="hideSwitcher">&times;</div>
+         </div>
+      </div>
+      <div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog"></i></div>
+      <!-- Live Style Switcher Ends - demo only -->
+      <!-- PRELOADER STARTS -->
+      <div id="preloader">
+         <div class="line"></div>
+      </div>
+      <!-- PRELOADER ENDS -->
+      <!-- WRAPPER STARTS -->
+      <div class="page-content">
+         <!-- HEADER STARTS -->
+         <header>
+            <!-- Desktop Menu Starts -->
+            <div class="header-inner hide-mobile">
+               <!-- MENU STARTS -->
+               <div class="menu">
+                  <nav>
+                     <ul>
+                        <li><span class="active" id="home-link">Home</span></li>
+                        <li><span id="about-link">About</span></li>
+                        <li><span id="portfolio-link">Portfolio</span></li>
+                        <li><span id="contact-link">Contact</span></li>
+                        <li><span id="blog-link">Blog</span></li>
+                     </ul>
+                  </nav>
+               </div>
+               <!-- MENU ENDS -->
+               <!-- FREELANCE STARTS -->
+               <div class="mail">
+                  <p>
+                     Email : 
+                     <span>seifsoss123@gmail.com</span>
+                  </p>
+               </div>
+               <!-- FREELANCE ENDS -->
+            </div>
+            <!-- Desktop Menu Ends -->
+            <!-- Mobile Menu Starts -->
+            <nav class="mobile-menu">
+               <div id="menuToggle">
+                  <input type="checkbox" id="checkboxmenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul class="list-unstyled" id="menu">
+                     <li><a href="#home"><span>Home</span></a></li>
+                     <li><a href="#my-photo"><span>About</span></a></li>
+                     <li><a href="#portfolio"><span>Portfolio</span></a></li>
+                     <li><a href="#contact"><span>Contact</span></a></li>
+                     <li><a href="#blog"><span>Blog</span></a></li>
+                  </ul>
+               </div>
+            </nav>
+            <!-- Mobile Menu Ends -->
+         </header>
+         <!-- HEADER ENDS -->
+         <div id="wrapper">
+            <main class="flex-column-mobile">
+               <!-- HOME SECTION STARTS -->
+               <section class="home image" id="home">
+                  <div>
+                     <div class="position-relative">
+                        <h1>
+                           <span>
+                              <span class="animated-layer">
+                                 Hello<span>.</span>
+                              </span>
+                           </span>
+                           <span class="position-relative">
+                              <span class="animated-layer">
+                              I am
+                              </span>
+                              <span class="intro animated-layer">
+                                 Full Stack Developer with 2 years experience 
+                              </span>
+                           </span>
+                           <span>
+                              <span class="animated-layer">
+                              Seif Dessoky
+                              </span>
+                           </span>
+                        </h1>
+                     </div>
+                  </div>
+                  <!-- CALL TO ACTION STARTS -->
+                  <span class="animated-layer animated-btn cta" id="cta">
+                     <span>
+                     </span>
+                  </span>
+                  <!-- CALL TO ACTION ENDS -->
+               </section>
+               <!-- HOME SECTION ENDS -->
+               <!-- ABOUT SECTION STARTS -->
+               <section class="about main-section flex-column-mobile" id="about">
+                  <!-- INFO HOLDER STARTS -->
+                  <div class="info flex-column-mobile">
+                     <!-- IMAGE STARTS -->
+                     <div class="img-container animated-layer image-animation my-photo-container fadeInUp wow" data-wow-offset="200" id="my-photo">
+                        <div>
+                           <div>
+                              <img class="my-photo" src="./1642c92d-23e9-4646-b8fe-37b4ad4cfde1.jpeg" alt="">
+                           </div>
+                        </div>
+                     </div>
+                     <!-- IMAGE ENDS -->
+                     <!-- INFO STARTS -->
+                     <div>
+                        <h2>
+                           <span>
+                           <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                           Seif
+                           </span>
+                           </span>
+                           <span>
+                           <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                           Bahaa
+                           </span>
+                           </span>
+                        </h2>
+                        <div class="infos">
+                           <ul>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Age :</span>
+                                 <span>18 Years</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Nationality :</span>
+                                 <span>Egypt</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Freelance :</span>
+                                 <span>Available</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Langages :</span>
+                                 <span>English , Arabic</span>
+                                 </span>
+                                 </span>
+                              </li>
+                           </ul>
+                           <ul>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Address :</span>
+                                 <span>Egypt</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Phone :</span>
+                                 <span>+20 150 793 4461</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Email :</span>
+                                 <span>seifsoss123@gmail.com</span>
+                                 </span>
+                                 </span>
+                              </li>
+                              <li>
+                                 <span>
+                                 <span class="animated-layer fade-in-up-animation fadeInUp wow">
+                                 <span>Skype :</span>
+                                 <span>seif.dessoky</span>
+                                 </span>
+                                 </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <!-- INFO ENDS -->
+                  </div>
+                  <!-- INFO HOLDER ENDS -->
+                  <!-- SKILLS STARTS -->
+                  <div class="skills flex-column-mobile">
+                     <!-- TITLE STARTS -->
+                     <div class="custom-title">
+                        <!-- MAIN TITLE STARTS -->
+                        <h3>
+                           <span>
+                           <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                           My Skills
+                           </span>
+                           </span>
+                        </h3>
+                        <!-- MAIN TITLE ENDS -->
+                     </div>
+                     <!-- TITLE ENDS -->
+                     <div class="skills-content">
+                        <div>
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-down-animation fadeInLeft wow">
+                              <span>
+                              <i class="devicon-wordpress-plain"></i>
+                              </span>
+                              <h4>
+                                 WordPress
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-up-animation fadeInRight wow">
+                              <span>
+                              <i class="devicon-jquery-plain"></i>
+                              </span>
+                              <h4>
+                                 jQuery
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                        </div>
+                        <div>
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-down-animation fadeInLeft wow">
+                              <span>
+                              <i class="devicon-angularjs-plain"></i>
+                              </span>
+                              <h4>
+                                 Angular JS
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-up-animation fadeInRight wow">
+                              <span>
+                              <i class="devicon-drupal-plain"></i>
+                              </span>
+                              <h4>
+                                 Drupal
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                        </div>
+                        <div>
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-down-animation fadeInLeft wow">
+                              <span>
+                              <i class="devicon-react-plain"></i>
+                              </span>
+                              <h4>
+                                 React JS
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-up-animation fadeInRight wow">
+                              <span>
+                              <i class="devicon-docker-plain"></i>
+                              </span>
+                              <h4>
+                                 Docker
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                        </div>
+                        <div>
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-down-animation fadeInLeft wow">
+                              <span>
+                              <i class="devicon-nodejs-plain"></i>
+                              </span>
+                              <h4>
+                                 Node JS
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                           <!-- SKILL ITEM STARTS -->
+                           <div class="animated-layer fade-in-up-animation fadeInRight wow">
+                              <span>
+                              <i class="devicon-sass-plain"></i>
+                              </span>
+                              <h4>
+                                 Sass
+                              </h4>
+                           </div>
+                           <!-- SKILL ITEM ENDS -->
+                        </div>
+                     </div>
+                  </div>
+                  <!-- SKILLS ENDS -->
+                  <!-- RESUME STARTS -->
+                  
+                  <img alt="" class="separator hide-mobile" src="assets/separator.png">
+               </section>
+               <!-- ABOUT SECTION ENDS -->
+               <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               <!-- FACTS SECTION STARTS -->
+               <section class="facts">
+                  <div class="flex-column-mobile">
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInLeft wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>2</h3>
+                              <p>years of<span>experience</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInRight wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>31</h3>
+                              <p>completed<span>projects</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInLeft wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>15</h3>
+                              <p >Happy<span>customers</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInRight wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>35</h3>
+                              <p>awards<span>won</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                     <!-- SINGE FACT ITEM STARTS -->
+                     <div class="animated-layer fade-in-right-animation fadeInLeft wow" data-wow-offset="200">
+                        <div>
+                           <div>
+                              <h3>11</h3>
+                              <p>learned<span>frameworks</span></p>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- SINGE FACT ITEM ENDS -->
+                  </div>
+                  <img alt="" class="z-1 hide-mobile opposite-separator" src="assets/separator-opposite.png">
+                  
+               </section>
+               <!-- FACTS SECTION ENDS -->
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png">
+               <!--  -->
+               
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png">
+               <!-- CONTACT SECTION STARTS -->
+               <section class="contact main-section flex-column-mobile" id="contact">
+                  <!-- TITLE STARTS -->
+                  <div class="custom-title">
+                     <!-- MAIN TITLE STARTS -->
+                     <h3>
+                        <span>
+                        <span class="animated-layer fade-in-left-animation fadeInUp wow">
+                        Get in touch
+                        </span>
+                        </span>
+                     </h3>
+                     <!-- MAIN TITLE ENDS -->
+                  </div>
+                  <!-- TITLE ENDS -->
+                  <!-- CONTACTS STARTS -->
+                  <div class="boxes">
+                     <div>
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                           <i class="fa fa-phone"></i>
+                           <p> 
+                              <span class="small-text">phone</span>
+                              +20 150 793 4461
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                        <!-- CONTACT ITEM STARTS -->
+                        
+                        <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                           <i class="fa fa-location-dot"></i>
+                           <p> 
+                              <span class="small-text">address</span>
+                              Egypt, Mokatam
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                     </div>
+                     <div>
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-down-animation fadeInUp wow">
+                           <i class="fa fa-envelope"></i>
+                           <p> 
+                              <span class="small-text">email</span>
+                              seifsoss123@gmail.com
+                           </p>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                        <!-- CONTACT ITEM STARTS -->
+                        <div class="animated-layer fade-in-up-animation fadeInUp wow">
+                           <i class="fa fa-share-nodes"></i>
+                           <span class="small-text">follow me</span>
+                           <ul class="social">
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-github"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-twitter"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-dribbble"></i>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                 <i class="fa-brands fa-facebook"></i>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                        <!-- CONTACT ITEM ENDS -->
+                     </div>
+                  </div>
+                  <!-- CONTACTS ENDS -->
+                  <img alt="" class="separator hide-mobile" src="assets/separator.png">
+               </section>
+               <!-- CONTACT SECTION ENDS -->
+               <img alt="" class="separator-mobile-down hide-desktop z-1" src="assets/separator-mobile-down.png">
+               <!-- CLIENTS SECTION STARTS -->
+               <section class="clients">
+                  <div class="clients-container animated-layer fade-in-right-animation fadeInUp wow">
+                     <h3>
+                        My Clients
+                     </h3>
+                     <div class="swiper swiper-clients fadeInUp wow">
+                        <div class="swiper-wrapper">
+                           <!-- SWIPER ITEM STARTS -->
+                           <div class="swiper-slide">
+                              <div>
+                                 <img src="assets/logos/themeforest-dark-background.png" alt="client">
+                              </div>
+                              <div>
+                                 <img src="assets/logos/photodune-dark-background.png" alt="client">
+                              </div>
+                           </div>
+                           <!-- SWIPER ITEM ENDS -->
+                           <!-- SWIPER ITEM STARTS -->
+                           <div class="swiper-slide">
+                              <div>
+                                 <img src="assets/logos/graphicriver-dark-background.png" alt="client">
+                              </div>
+                              <div>
+                                 <img src="assets/logos/codecanyon-dark-background.png" alt="client">
+                              </div>
+                           </div>
+                           <!-- SWIPER ITEM ENDS -->
+                           <!-- SWIPER ITEM STARTS -->
+                           <div class="swiper-slide">
+                              <div>
+                                 <img src="assets/logos/audiojungle-dark-background.png" alt="client">
+                              </div>
+                              <div>
+                                 <img src="assets/logos/activeden-dark-background.png" alt="client">
+                              </div>
+                           </div>
+                           <!-- SWIPER ITEM ENDS -->
+                           <!-- SWIPER ITEM STARTS -->
+                           <div class="swiper-slide">
+                              <div>
+                                 <img src="assets/logos/3docean-dark-background.png" alt="client">
+                              </div>
+                              <div>
+                                 <img src="assets/logos/themeforest-dark-background.png" alt="client">
+                              </div>
+                           </div>
+                           <!-- SWIPER ITEM ENDS -->
+                           <!-- SWIPER ITEM STARTS -->
+                           <div class="swiper-slide">
+                              <div>
+                                 <img src="assets/logos/activeden-dark-background.png" alt="client">
+                              </div>
+                              <div>
+                                 <img src="assets/logos/audiojungle-dark-background.png" alt="client">
+                              </div>
+                           </div>
+                           <!-- SWIPER ITEM ENDS -->
+                           <!-- SWIPER ITEM STARTS -->
+                           <div class="swiper-slide">
+                              <div>
+                                 <img src="assets/logos/graphicriver-dark-background.png" alt="client">
+                              </div>
+                              <div>
+                                 <img src="assets/logos/codecanyon-dark-background.png" alt="client">
+                              </div>
+                           </div>
+                           <!-- SWIPER ITEM ENDS -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                     </div>
+                  </div>
+                  <img alt="" class="z-1 hide-mobile opposite-separator" src="assets/separator-opposite.png">
+               </section>
+               <!-- CLIENTS SECTION ENDS -->
+               <img alt="" class="separator-mobile-up hide-desktop z-1" src="assets/separator-mobile-up.png">
+               <!-- BLOG SECTION STARTS -->
+              
+               <!-- BLOG SECTION ENDS -->
+               <img alt="" class="hide-desktop z-1" src="assets/separator-copyright-mobile.png">
+               <!-- COPYRIGHT SECTION STARTS -->
+               <section class="copyright">
+                  <img alt="" class="z-1 hide-mobile" src="assets/separator-copyright.png">
+                  <div>
+                     <span>&#169; 2023 Seif Eldessoky</span>
+                     <span>Designed By <a target="_blank" href="#">Seif Eldessoky</a></span>
+                     <ul>
+                        <li>
+                           <a href="#">
+                           <i class="fa-brands fa-github"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa-brands fa-twitter"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa-brands fa-dribbble"></i>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="#">
+                           <i class="fa-brands fa-facebook"></i>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  
+               </section>
+               <!-- COPYRIGHT SECTION ENDS -->
+            </main>
+         </div>
+         <!-- SCROLL BAR STARTS -->
+         <div class="scroll-progress hide-mobile">
+            <div>
+               <div></div>
+            </div>
+         </div>
+         <!-- SCROLL BAR ENDS -->
+      </div>
+      <!-- WRAPPER ENDS -->
+      <script src="js/jquery-3.6.3.min.js"></script>
+      <script src="js/jquery.mCustomScrollbar.min.js"></script>
+      <script src="js/swiper-bundle.min.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script src="js/custom.js"></script>
+
+      <!-- Style Switcher - Demo Only -->
+      <script src="js/styleswitcher.js"></script>
+   </body>
+</html>
